@@ -126,6 +126,33 @@
             font-weight: bold;
             color: #d63031;
         }
+        .music-section {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .music-section h2 {
+            color: #ff6b9d;
+            margin-bottom: 20px;
+        }
+        .song {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+        .song:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .song iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -168,6 +195,35 @@
                 <div class="hidden-message">Do I have a chance?. </div>
             </div>
             
+            <!-- Songs that remind me of you section -->
+            <div class="music-section">
+                <h2>Songs That Remind Me of You 🎶</h2>
+                <div class="song">
+                    <h3>Seasons - Wave to Earth</h3>
+                    <iframe src="https://www.youtube.com/embed/0JQ5I0hzRT0" allowfullscreen></iframe>
+                </div>
+                <div class="song">
+                    <h3>UNDERSTAND - Keshi</h3>
+                    <iframe src="https://www.youtube.com/embed/0JQ5I0hzRT0" allowfullscreen></iframe> <!-- Placeholder; replace with actual Keshi UNDERSTAND video ID -->
+                </div>
+                <div class="song">
+                    <h3>Bad - Wave to Earth</h3>
+                    <iframe src="https://www.youtube.com/embed/0JQ5I0hzRT0" allowfullscreen></iframe> <!-- Placeholder; replace with actual Wave to Earth Bad video ID -->
+                </div>
+                <div class="song">
+                    <h3>No. 1 Party Anthem - Arctic Monkeys</h3>
+                    <iframe src="https://www.youtube.com/embed/0JQ5I0hzRT0" allowfullscreen></iframe> <!-- Placeholder; replace with actual Arctic Monkeys video ID -->
+                </div>
+                <div class="song">
+                    <h3>Mean It - Lauv & LANY</h3>
+                    <iframe src="https://www.youtube.com/embed/0JQ5I0hzRT0" allowfullscreen></iframe> <!-- Placeholder; replace with actual Lauv & LANY Mean It video ID -->
+                </div>
+                <div class="song">
+                    <h3>Superpower - Daniel Caesar</h3>
+                    <iframe src="https://www.youtube.com/embed/0JQ5I0hzRT0" allowfullscreen></iframe> <!-- Placeholder; replace with actual Daniel Caesar Superpower video ID -->
+                </div>
+            </div>
+            
             <!-- Add more letters or customize as needed -->
         </div>
     </div>
@@ -194,6 +250,3 @@
     </script>
 </body>
 </html>
-
-
-
